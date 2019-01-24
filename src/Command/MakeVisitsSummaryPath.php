@@ -23,7 +23,7 @@ class MakeVisitsSummaryPath
     * year returns data for the year that contains the specified 'date'
     * range returns data for the specified 'date' range.
     */
-    protected $period = 'week';
+    protected $period = 'day';
 
     /**
     * Date
@@ -39,7 +39,7 @@ class MakeVisitsSummaryPath
     *              This is relative to the website timezone.
     * YYYY-MM-DD,YYYY-MM-DD for every period (day, week, month or year) in the date range
     */
-    protected $date ='previous4';
+    protected $date ='previous30';
     protected $baseUrl;
     protected $tokenAuth;
     protected $idSite;

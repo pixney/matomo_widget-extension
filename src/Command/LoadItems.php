@@ -46,7 +46,7 @@ class LoadItems
     public function handle(ConfigurationRepositoryInterface $configuration)
     {
         $VisitsSummary = [
-            'title'=> 'Visits Summary last 52 weeks',
+            'title'=> 'Visits Summary',
             'src'  => $this->dispatch(new MakeVisitsSummaryPath($this->widget->getId())),
         ];
         $DeviceDetection = [
