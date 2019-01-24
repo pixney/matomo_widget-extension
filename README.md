@@ -8,4 +8,4 @@ usage.
 
 Pull requests are more than welcome!
 
-![Image showing how matomo dashboard widget for Pyro Cms looks](https://github.com/adam-p/markdown-here/raw/master/matomo_widget-extension.png)
+![Image showing how matomo dashboard widget for Pyro Cms looks](https://github.com/pixney/matomo_widget-extension/blob/master/matomo_widget-extension.png)
