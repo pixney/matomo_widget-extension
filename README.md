@@ -10,3 +10,12 @@ usage.
 
 Pull requests are more than welcome!
 
+## Installation 
+
+```
+composer require pixney/matomo_widget-extension
+```
+
+```
+php artisan addon:install pixney.extension.matomo_widget
+```
