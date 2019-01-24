@@ -1,0 +1,10 @@
+{% if widget.data.items is not empty %}
+    <div class="row">
+        {% for item in widget.data.items %}
+            <div class="col-sm-12">
+                <h2>{{item.title}}</h2>
+                <img style="max-width:100%;" src="{{item.src}}" alt=""></div>
+            {% endfor %}
+        </div>
+    </div>
+{% endif %}

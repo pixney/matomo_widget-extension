@@ -1,0 +1,9 @@
+{
+    "name": "pixney/matomo_widget-extension",
+    "type": "streams-addon",
+    "autoload": {
+        "psr-4": {
+            "Pixney\\MatomoWidgetExtension\\": "src/"
+        }
+    }
+}
