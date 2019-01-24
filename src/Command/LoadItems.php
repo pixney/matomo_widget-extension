@@ -2,10 +2,8 @@
 
 namespace Pixney\MatomoWidgetExtension\Command;
 
-use Illuminate\Contracts\Cache\Repository;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Anomaly\DashboardModule\Widget\Contract\WidgetInterface;
-use Anomaly\ConfigurationModule\Configuration\Contract\ConfigurationRepositoryInterface;
 
 /**
  * Class LoadItems
@@ -37,13 +35,11 @@ class LoadItems
     }
 
     /**
-     * Handle the widget data.
+     * Undocumented function
      *
-     * @param \SimplePie                       $rss
-     * @param Repository                       $cache
-     * @param ConfigurationRepositoryInterface $configuration
+     * @return void
      */
-    public function handle(ConfigurationRepositoryInterface $configuration)
+    public function handle()
     {
         $VisitsSummary = [
             'title'=> 'Visits Summary',

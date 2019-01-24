@@ -54,7 +54,13 @@ class MakeVisitsSummaryPath
         $this->idSite         = $configuration->value('pixney.extension.matomo_widget::id_site', $this->widgetId, '1');
     }
 
-    public function handle(ConfigurationRepositoryInterface $configuration)
+    /**
+     * Undocumented function
+     *
+     * @param ConfigurationRepositoryInterface $configuration
+     * @return void
+     */
+    public function handle()
     {
         $method     = 'ImageGraph.get';
         $apiModule  ='VisitsSummary';

@@ -55,6 +55,11 @@ class MakeDeviceDetectionPath
         $this->idSite         = $configuration->value('pixney.extension.matomo_widget::id_site', $this->widgetId, '1');
     }
 
+    /**
+     * Undocumented function
+     *
+     * @return void
+     */
     public function handle()
     {
         $method     = 'ImageGraph.get';
