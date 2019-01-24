@@ -1,4 +1,6 @@
-# Matomo Dashboatd Widget for PyroCMS
+# Matomo Dashboard Widget for PyroCMS
+
+![Image showing how matomo dashboard widget for Pyro Cms looks](https://github.com/pixney/matomo_widget-extension/blob/master/matomo_widget-extension.png)
 
 Extremely simple dashboard widget for pyrocms showing currently only two graphs from
 Matomo: DeviceDetection and VisitsSummary.
@@ -8,4 +10,3 @@ usage.
 
 Pull requests are more than welcome!
 
-![Image showing how matomo dashboard widget for Pyro Cms looks](https://github.com/pixney/matomo_widget-extension/blob/master/matomo_widget-extension.png)
